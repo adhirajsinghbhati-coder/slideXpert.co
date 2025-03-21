@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIDEXPERT - PowerPoint Presentation Services</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f39c12;
+        }
+        #logo {
+            width: 150px;
+            animation: slideDown 2s ease-in-out;
+        }
+        @keyframes slideDown {
+            0% {
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        .pricing-table {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .pricing-plan {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 250px;
+            transition: transform 0.3s;
+        }
+        .pricing-plan:hover {
+            transform: scale(1.05);
+        }
+        .project {
+            background-color: #e2e2e2;
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="file-5xqGjbsirBoiZFU6jfKQCC" alt="SLIDEXPERT Logo" id="logo">
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            SLIDEXPERT is your trusted partner in creating stunning PowerPoint presentations. Our team excels in designing slides that are visually engaging, professional, and tailored to meet your needs. Whether it's for corporate meetings, academic projects, or marketing pitches, we transform ideas into impactful presentations. Our mission is to empower businesses and individuals with high-quality visuals that captivate and inform audiences. We prioritize creativity, precision, and storytelling to bring your vision to life. From startups to large enterprises, SLIDEXPERT ensures your message stands out. Choose from Basic, Normal, or Advanced plans to match your requirements. Let us handle your slides while you focus on delivering your message confidently.
+        </p>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-table">
+            <div class="pricing-plan">
+                <h3>Basic</h3>
+                <p>₹50 per slide</p>
+                <p>Simple and clean design</p>
+            </div>
+            <div class="pricing-plan">
+                <h3>Normal</h3>
+                <p>₹100 per slide</p>
+                <p>Professional and engaging design</p>
+            </div>
+            <div class="pricing-plan">
+                <h3>Advanced</h3>
+                <p>₹500 per slide</p>
+                <p>High-end animations and graphics</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="project">
+            <h3>Porsche Presentation</h3>
+            <p>Status: Completed</p>
+        </div>
+        <div class="project">
+            <h3>Amazon Rainforest Awareness</h3>
+            <p>Status: Completed</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Name: Yuvraaj</p>
+        <p>Email: Chetwaniyuvraaj@gmail.com</p>
+        <p>Phone: +91 9876543210</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SLIDEXPERT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
